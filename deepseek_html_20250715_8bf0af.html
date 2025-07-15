@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppHub - Download Premium Apps for Free</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><i class="fas fa-cube"></i> App<span>Hub</span></div>
+                <div class="nav-links">
+                    <a href="#apps"><i class="fas fa-mobile-alt"></i> Apps</a>
+                    <a href="#categories"><i class="fas fa-th-large"></i> Categories</a>
+                    <a href="#premium"><i class="fas fa-crown"></i> Premium</a>
+                    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Download Premium Apps for Free</h1>
+            <p>Get unlimited access to thousands of modded, premium and exclusive apps without paying anything. No ads, no restrictions!</p>
+            <a href="#apps" class="cta-btn"><i class="fas fa-download"></i> Explore Apps</a>
+        </div>
+    </section>
+    
+    <section class="apps-section" id="apps">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-fire"></i> Trending Apps</h2>
+                <p>Most downloaded apps this week</p>
+            </div>
+            
+            <div class="app-grid" id="appGrid">
+                <!-- Apps will be loaded dynamically from script.js -->
+            </div>
+        </div>
+    </section>
+    
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-tags"></i> Categories</h2>
+                <p>Browse apps by category</p>
+            </div>
+            
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-music"></i></div>
+                    <h3>Music & Audio</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-film"></i></div>
+                    <h3>Video & Movies</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-camera-retro"></i></div>
+                    <h3>Photo & Video</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Games</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Tools & Security</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-users"></i></div>
+                    <h3>Social Media</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta-section" id="premium">
+        <div class="container">
+            <h2><i class="fas fa-crown"></i> Want More Premium Apps?</h2>
+            <p>Join our VIP membership to get exclusive access to rare apps, early releases and dedicated support.</p>
+            <a href="#" class="cta-btn"><i class="fas fa-gem"></i> Become VIP Member</a>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3><i class="fas fa-cube"></i> AppHub</h3>
+                    <p>Your one-stop destination for premium modded apps. Safe, fast and free downloads.</p>
+                </div>
+                <div class="footer-column">
+                    <h3><i class="fas fa-link"></i> Quick Links</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#apps"><i class="fas fa-mobile-alt"></i> Apps</a></li>
+                        <li><a href="#categories"><i class="fas fa-th-large"></i> Categories</a></li>
+                        <li><a href="#premium"><i class="fas fa-crown"></i> VIP</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3><i class="fas fa-balance-scale"></i> Legal</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
+                        <li><a href="#"><i class="fas fa-lock"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-gavel"></i> DMCA</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3><i class="fas fa-users"></i> Connect</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-telegram"></i> Telegram</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; <span id="currentYear"></span> AppHub. All rights reserved. All apps are property of their respective owners.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
